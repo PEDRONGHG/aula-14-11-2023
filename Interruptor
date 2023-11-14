@@ -1,0 +1,15 @@
+public class Interruptor {
+     boolean ligado = false;
+
+     void pressionar() {
+        ligado = !ligado;
+    }
+
+     void verificarLampada() {
+        if (ligado) {
+            System.out.println("A luz está acesa");
+        } else {
+            System.out.println("A luz está apagada");
+        }
+    }
+}
